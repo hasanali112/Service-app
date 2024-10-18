@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Feedback for the Task:
 
-## Getting Started
+Working on this task was a rewarding experience as it allowed me to implement various design and functionality aspects to create a cohesive user interface. The project involved creating a visually appealing and responsive footer component using Next.js and Tailwind CSS, which was a good opportunity to apply my front-end development skills.
 
-First, run the development server:
+### Challenges Encountered:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Custom Styling: Achieving the exact styling of the background gradient and elements required some adjustments and customization of Tailwind's default configurations. Extending the theme with custom gradients and colors was necessary to match the design closely.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Responsiveness: Ensuring that the layout looked good on all screen sizes was a bit challenging, particularly for the contact information section. I had to carefully adjust the flex and spacing utilities for different breakpoints to maintain consistency across devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- SVG Icons: Integrating the icons with appropriate styling while keeping the component lightweight required some effort. I opted for inline SVGs to have more control over their styling and to ensure consistency with the design.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Overall Experience:
 
-## Learn More
+The task was a great opportunity to refine my skills in creating responsive and visually appealing components using Next.js and Tailwind CSS. The process allowed me to tackle common front-end challenges, such as responsive design and component reusability. I'm satisfied with the final outcome and feel that the component meets the project requirements while providing room for future enhancements.
 
-To learn more about Next.js, take a look at the following resources:
+Overall, this task has strengthened my confidence in designing and developing user-friendly interfaces using modern front-end technologies.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Tech Stack:** Next.js, Tailwind CSS, TypeScript
